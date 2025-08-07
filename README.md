@@ -20,7 +20,7 @@
 
 ###
 
-<p align="left">I'm Aybek<br><br>-I'm just studying Frontend Development🧑‍💻<br>-I'll add some more hardskills later🤗</p>
+<p align="left">I'm Aybek<br><br>-I'm Frontend Developer🧑‍💻<br>-I'm making projects to test my hardskills and educate myself by doing them🤗</p>
 
 ###
 
