@@ -40,7 +40,7 @@ Headline numbers on independently labelled data: precision 0.683, recall 0.867, 
 ## Stack
 
 **Research** — experimental design · BCa bootstrap and t-distribution CIs · inter-annotator agreement · benchmark construction · replication packages · LaTeX
-**AI** — LLM agents (GPT-4, Claude) · multi-agent orchestration · RAG · vector stores · prompt engineering
+**AI** — LLM agents (GPT, Claude) · multi-agent orchestration · RAG · vector stores · prompt engineering
 **Engineering** — Python · FastAPI · Flask · PostgreSQL · Docker · TypeScript · React / Next.js · SQL · Git
 **Security** — web and API vulnerability analysis · CodeQL · CWE · OWASP Benchmark · port scanning · HTTP header analysis
 
@@ -48,4 +48,4 @@ Headline numbers on independently labelled data: precision 0.683, recall 0.867, 
 
 Alongside research I work as AI Product & Project Manager at **SILENCE AI**, shipping production LLM/RAG systems for enterprise and SMB clients — which is where most of what I know about running these things outside a benchmark comes from.
 
-Russian (native) · English (C2) · Kazakh (C2)
+Kazakh (Fluent) · Russian (Fluent) · English (Fluent)
