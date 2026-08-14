@@ -1,65 +1,51 @@
-<div align="center">
-  <a href="https://t.me/DoubleS2xS" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="telegram logo"  />
-  </a>
-  <a href="http://wa.me/+77719171577" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="whatsapp logo"  />
-  </a>
-  <a href="https://www.instagram.com/aibek.koni/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
-  </a>
-</div>
+# Aibek Zhenissov
 
-###
+**MSc researcher — AI for software security.**
+I build multi-agent LLM systems for vulnerability detection, and spend most of my time on the part that decides whether they are real: evaluation design.
 
-<h1 align="center">Hey! 👋</h1>
+Department of Information Systems and Artificial Intelligence
+Abylkas Saginov Karaganda Technical University, Kazakhstan
 
-###
+[![Telegram](https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge)](https://t.me/DoubleS2xS)
+[![Email](https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=EA4335&logoColor=white&labelColor=&style=for-the-badge)](mailto:aybekcode@gmail.com)
 
-<h3 align="left">👩‍💻  About Me</h3>
+---
 
-###
+## Research
 
-<p align="left">I'm Aybek<br><br>-I'm a Project Manager🧑‍💻<br>-I'm making projects to test my hardskills and educate myself by doing them🤗</p>
+**A Cost-Efficient CWE-Grounded Multi-Agent LLM Pipeline for Web and API Vulnerability Analysis: Design, Statistical Evaluation, and Implications for 5G/6G Edge Deployment**
+A. B. Zhenissov, I. Shayea — *IEEE Open Journal of the Communications Society*, under review (OJCOMS-06445-2026)
 
-###
+Two LLM agents grounded in the CWE taxonomy, with confidence-based routing formalised as classification with a reject option. Evaluated over ten independent runs with BCa bootstrap confidence intervals, against CodeQL and a single-agent ablation on OWASP Benchmark v1.2.
 
-<h3 align="left">🛠 Language and tools</h3>
+Headline numbers on independently labelled data: precision 0.683, recall 0.867, F1 0.764, with blinded re-annotation at Cohen's κ = 0.648. The baselines outperform the pipeline on detection, and the paper reports that rather than the more favourable number from our own labels.
 
-###
+**AI-Driven Efficient Water Management and Agricultural Production Systems Based on IoT Systems** — in preparation.
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img width="40" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/flask.png" alt="Flask" title="Flask"/>
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react logo" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/>
+---
 
-<img width="40" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png" alt="TypeScript" title="TypeScript"/>
+## Repositories
 
-<img width="40" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/npm.png" alt="npm" title="npm"/>
+| | |
+|---|---|
+| [`llm-Web-Vulnerability-Analysis`](https://github.com/DoubleS2xS/llm-Web-Vulnerability-Analysis) | Multi-agent CWE-grounded pipeline from the paper above |
+| [`LLM-Agents-as-SAST-Tools`](https://github.com/DoubleS2xS/LLM-Agents-as-SAST-Tools) | LLM agents evaluated as static analysis tools |
+| [`ai-driven-water-agriculture`](https://github.com/DoubleS2xS/ai-driven-water-agriculture) | AI over IoT sensor data for irrigation and yield modelling |
 
-<img width="40" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/next_js.png" alt="Next.js" title="Next.js"/>
+**MSc thesis** — Development of an Automated Web Vulnerability Analysis System with AI-Based Decision Support
+**BSc thesis** — Development of an Interactive System for Analyzing Web Vulnerabilities Using Port Scanning, HTTP Header Analysis, and Content Scraping
 
-<img width="40" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/vite.png" alt="Vite" title="Vite"/>
+---
 
-<img width="40" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/docker.png" alt="Docker" title="Docker"/>
-  
+## Stack
 
-</div>
+**Research** — experimental design · BCa bootstrap and t-distribution CIs · inter-annotator agreement · benchmark construction · replication packages · LaTeX
+**AI** — LLM agents (GPT-4, Claude) · multi-agent orchestration · RAG · vector stores · prompt engineering
+**Engineering** — Python · FastAPI · Flask · PostgreSQL · Docker · TypeScript · React / Next.js · SQL · Git
+**Security** — web and API vulnerability analysis · CodeQL · CWE · OWASP Benchmark · port scanning · HTTP header analysis
 
-###
+---
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DoubleS2xS&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
+Alongside research I work as AI Product & Project Manager at **SILENCE AI**, shipping production LLM/RAG systems for enterprise and SMB clients — which is where most of what I know about running these things outside a benchmark comes from.
 
-###
+Russian (native) · English (C2) · Kazakh (C2)
